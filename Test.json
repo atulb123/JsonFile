@@ -1,0 +1,96 @@
+[
+    {
+		"iteration": 1,
+        "input": "Find Laundry Detergent Plus",
+        "dispatch_intent": "l_inst_training",
+		"lookup_intent": "productLookUp",
+		"lookup_entity": "Laundry Detergent Plus",
+		"score": 0.5
+    },
+	{
+		"iteration": 2,
+        "input": "Find Part 96592243",
+        "dispatch_intent": "l_inst_tech_service",
+		"lookup_intent": "partsLookUp",
+		"score": 0.5
+    },
+	{
+		"iteration": 3,
+        "input": "Find Dishmachine ADS ADC 44",
+        "dispatch_intent": "l_inst_tech_service",
+		"lookup_intent": "partsLookUp",
+		"dishamchine_name_entity": "ADS ADC 44",
+		"dishamchine_id_entity": "194354",
+		"score": 0.5
+    },
+    {
+		"iteration": 4,
+        "input": "Find Dosage of Greaselift",
+        "dispatch_intent": "l_inst_training",
+		"lookup_intent": "dosage",
+		"lookup_entity": "Greaselift",
+		"score": 0.5
+    },
+    {
+		"iteration": 5,
+        "input": "Feedback",
+		"dispatch_intent": "l_common",
+		"lookup_intent": "provideFeedback",
+		"score": 0.5
+    },
+    {
+		"iteration": 6,
+        "input": "Find Ordering info of Greaselift",
+        "dispatch_intent": "l_inst_training",
+		"lookup_intent": "productOrdering",
+		"lookup_entity": "Greaselift",
+		"score": 0.5
+    },
+	{
+		"iteration": 7,
+        "input": "Find Part ACC ADS WLDMT",
+        "dispatch_intent": "l_inst_tech_service",
+		"lookup_intent": "partsLookUp",
+		"part_name_entity": "ACC ADS WLDMT",
+		"score": 0.5
+    },
+	{
+		"iteration": 8,
+        "input": "Find parts of main assembly for ADS 5 CD",
+        "dispatch_intent": "l_inst_tech_service",
+		"lookup_intent": "partsLookUp",
+		"dishamchine_name_entity": "ADS 5 CD",
+		"dishamchine_id_entity": "194240",
+		"assembly_name_entity": "Main Assembly",
+		"assembly_id_entity": "201679",
+		"score": 0.5
+    },
+	{
+		"iteration": 9,
+        "input": "Find Assemblies of ADS ADC 44",
+        "dispatch_intent": "l_inst_tech_service",
+		"lookup_intent": "partsLookUp",
+		"dishamchine_name_entity": "ADS ADC 44",
+		"dishamchine_id_entity": "194354",
+		"score": 0.5
+    },
+	{
+		"iteration": 10,
+        "input": "Find All Assemblies of ADS ADC 44",
+        "dispatch_intent": "l_inst_tech_service",
+		"lookup_intent": "partsLookUp",
+		"dishamchine_name_entity": "ADS ADC 44",
+		"dishamchine_id_entity": "194354",
+		"score": 0.5
+    },
+	{
+		"iteration": 11,
+        "input": "Find part SHORT CURTAIN LABEL ES4400 for WH 44 WH 66",
+        "dispatch_intent": "l_inst_tech_service",
+		"lookup_intent": "partsLookUp",
+		"dishamchine_name_entity": "WH 44 WH 66",
+		"dishamchine_id_entity": "6770",
+		"part_name_entity": "SHORT CURTAIN LABEL ES4400",
+		"score": 0.5
+    }
+]
